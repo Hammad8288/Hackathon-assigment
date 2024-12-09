@@ -82,8 +82,9 @@ const Navbar = () => {
             } fixed top-20 right-0 bg-white shadow-lg rounded-xl w-[280px] sm:w-[320px] py-4 px-6 z-50`}
           >
             <div>
-              <p className="font-bold text-[24px] leading-[36px] mb-7 mt-3">
+              <p className="font-bold text-[24px] leading-[36px] mb-7 mt-3 flex">
                 Shopping Cart
+                <MdCancel className="text-gray-400 w-[20px] h-[20px] ml-16 cursor-pointer mt-3" onClick={() => setisCartOpen(!isCartOpen)}/>
               </p>
             </div>
             <div className="border-b mb-6"></div>
@@ -99,13 +100,13 @@ const Navbar = () => {
                     Asgaard sofa
                   </h3>
                   <p className="text-xs text-gray-500">
-                    1 x <span className="text-yellow-600">Rs. 250,000.00</span>
+                   <span className="text-yellow-600">Rs. 250,000.00</span>
                   </p>
                 </div>
                 <MdCancel className="text-gray-400 w-[20px] h-[20px] ml-16 cursor-pointer mt-1" />
               </div>
             </div>
-            <div className="flex justify-between items-center text-black font-medium pt-4 mt-40">
+            <div className="flex justify-between items-center text-black text-[19px] pt-4 mt-40">
               <p>Subtotal</p>
               <p className="text-yellow-600">Rs. 250,000.00</p>
             </div>
@@ -113,13 +114,13 @@ const Navbar = () => {
             <div className="flex gap-4 mt-10">
               <Link
                 href="/Cart"
-                className="flex-1 text-center py-2 border rounded-lg text-black hover:bg-gray-100"
+                className=" flex-1 text-[18px] text-center border rounded-lg text-black hover:bg-gray-100"
               >
                 View Cart
               </Link>
               <Link
                 href="/CheckOut"
-                className="flex-1 text-center py-2 bg-black text-white rounded-2xl hover:bg-gray-800 "
+                className="flex-1 text-center bg-black text-white rounded-2xl hover:bg-gray-800 "
               >
                 Checkout
               </Link>
