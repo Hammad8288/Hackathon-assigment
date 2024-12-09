@@ -29,7 +29,7 @@ const Navbar = () => {
         <div
           className={`${
             isOpen ? "block" : "hidden"
-          } absolute sm:static top-20 right-0 w-full sm:w-auto sm:flex sm:flex-1 flex-col sm:flex-row items-center text-black text-[16px] font-[500] leading-[24px] z-50`}
+          } absolute sm:static top-20 left-0 sm:w-auto sm:flex sm:flex-1 flex-col sm:flex-row items-center text-black text-[16px] font-[500] leading-[24px] z-50`}
         >
           {/* Links Section */}
           <div className="flex flex-col sm:flex-1 sm:flex-row justify-center items-center space-y-2 sm:space-y-0 sm:space-x-8">
