@@ -83,9 +83,9 @@ const Home = () => {
 
       {/* view more section */}
 
-      <div className="w-full h-auto bg-[#FAF4F4]  py-10">
+      <div className="w-full h-auto bg-[#FAF4F4] py-10">
         {/* Grid Layout */}
-        <div className="grid gap-8 sm:grid-cols-2  max-w-7xl mx-auto px-4 lg:px-8 ">
+        <div className="grid gap-8 sm:grid-cols-2 max-w-7xl mx-auto px-4 lg:px-8 ">
           {/* First Image Section */}
           <div className="flex flex-col items-center lg:items-start">
             <Image
