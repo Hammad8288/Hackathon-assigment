@@ -15,6 +15,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const pathname = usePathname();
+  
 
   const navbarBgColor = pathname === "/" ? " bg-[#FBEBB5] " : "bg-white";
 
