@@ -5,7 +5,7 @@ import { RiAccountCircleLine } from "react-icons/ri";
 import { FiSearch } from "react-icons/fi";
 import { FaRegHeart } from "react-icons/fa6";
 import { IoCartOutline } from "react-icons/io5";
-import { MdCancel, MdFacebook } from "react-icons/md";
+import { MdCancel } from "react-icons/md";
 import { TiThMenu } from "react-icons/ti";
 import Link from "next/link";
 import { usePathname } from "next/navigation";

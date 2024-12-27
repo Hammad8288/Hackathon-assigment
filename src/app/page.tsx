@@ -99,9 +99,9 @@ const Home = () => {
               <p className="font-[500] text-[24px] lg:text-[36px] leading-[36px] lg:leading-[54px]">
                 Side Table
               </p>
-              <p className="underline underline-offset-8 mt-2 cursor-pointer font-[500] text-[16px] lg:text-[18px] transition-transform hover:scale-105 hover:text-gray-700">
+              <Link href={"/Shop"} className="underline underline-offset-8 mt-2 cursor-pointer font-[500] text-[16px] lg:text-[18px] transition-transform hover:scale-105 hover:text-gray-700">
                 View More
-              </p>
+              </Link>
             </div>
           </div>
 
@@ -118,9 +118,9 @@ const Home = () => {
               <p className="font-[500] text-[24px] lg:text-[36px] leading-[36px] lg:leading-[54px]">
                 Side Table
               </p>
-              <p className="underline underline-offset-8 mt-2 cursor-pointer font-[500] text-[16px] lg:text-[18px] transition-transform hover:scale-105 hover:text-gray-700">
+              <Link href={"/Shop"} className="underline underline-offset-8 mt-2 cursor-pointer font-[500] text-[16px] lg:text-[18px] transition-transform hover:scale-105 hover:text-gray-700">
                 View More
-              </p>
+              </Link>
             </div>
           </div>
         </div>
@@ -168,9 +168,9 @@ const Home = () => {
 
         {/* View More Section */}
         <div className="flex justify-center mt-16 lg:mt-28">
-          <p className="underline underline-offset-8 cursor-pointer font-[500] text-[14px] sm:text-[16px] lg:text-[18px] transition-transform hover:scale-105 hover:text-gray-700">
+          <Link href={"/Shop"} className="underline underline-offset-8 cursor-pointer font-[500] text-[14px] sm:text-[16px] lg:text-[18px] transition-transform hover:scale-105 hover:text-gray-700">
             View More
-          </p>
+          </Link>
         </div>
       </div>
 
@@ -200,7 +200,7 @@ const Home = () => {
             </div>
             <div className="mt-4">
               <Link
-                href="/Shop/ProductDetails"
+                href="/Shop"
                 className="text-[16px] md:text-[20px] leading-[28px] font-[500] text-[#000000] border border-[#9b9b9b] py-3 px-6 inline-block hover:bg-[#faeec7] transition-colors"
               >
                 Order Now

@@ -13,6 +13,10 @@ import Link from "next/link";
 
 const Details = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [count, setCount] = useState(0);
+  const decrement = () => setCount(count - 1); 
+  const increment = () => setCount(count + 1);
+  
   return (
     <div className="max-w-[1440px] h-auto lg:h-[820px] mx-auto px-4 lg:px-0">
       <div className="max-w-[1241.01px] h-auto lg:h-[730.87px] m-auto mt-11 bg-white flex flex-col lg:flex-row lg:justify-between">
@@ -118,11 +122,11 @@ const Details = () => {
             </div>
           </div>
           <div className="relative flex flex-col sm:flex-row mt-8 gap-4 sm:gap-10">
-            <button className="flex flex-row px-6 py-4 rounded-xl border-[1px] border-black gap-6 text-[16px]">
-              <p>-</p>
-              <p>1</p>
-              <p>+</p>
-            </button>
+            <div className="flex flex-row px-6 py-4 rounded-xl border-[1px] border-black gap-6 text-[16px]">
+              <button className="text-black" onClick={decrement} disabled = {count === 0}>-</button>
+              <button className="text-black">{count}</button>
+              <button className="text-black" onClick={increment}>+</button>
+            </div>
 
             {/* Add to Cart Button */}
             <div>

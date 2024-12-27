@@ -72,7 +72,7 @@ const page = () => {
       id: 10,
       name: "Reclaimed teak Sideboard",
       price: "Rs. 25,000.00",
-      image: "Spic13.png",
+      image: "Spic16.png",
     },
     {
       id: 11,
